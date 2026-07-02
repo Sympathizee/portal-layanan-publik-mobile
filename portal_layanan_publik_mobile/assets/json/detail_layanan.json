@@ -1,0 +1,133 @@
+{
+  "code": 200,
+  "data": {
+    "akses_layanan": [
+      "ONLINE",
+      "OFFLINE"
+    ],
+    "cakupan": "NASIONAL",
+    "deskripsi": "Layanan pembuatan KTP elektronik",
+    "id": 1,
+    "ikon_layanan": "icon-ktp.png",
+    "kategori_layanan": {
+      "dibuat_oleh": 1,
+      "diubah_oleh": 1,
+      "id": 1,
+      "ikon": "icon-building.png",
+      "nama": "Administrasi Kependudukan",
+      "tgl_dibuat": "2024-01-01T10:00:00+07:00",
+      "tgl_diubah": "2024-01-01T10:00:00+07:00"
+    },
+    "kategori_layanan_id": 1,
+    "kategori_master_layanan": {
+      "dibuat_oleh": 1,
+      "diubah_oleh": 1,
+      "id": 1,
+      "ikon": "icon-building.png",
+      "nama": "Administrasi Kependudukan",
+      "tgl_dibuat": "2024-01-01T10:00:00+07:00",
+      "tgl_diubah": "2024-01-01T10:00:00+07:00"
+    },
+    "layanan_akses": [
+      {
+        "deskripsi": "Akses melalui website resmi",
+        "id": 1,
+        "is_primary": true,
+        "judul": "Website Resmi",
+        "layanan_id": 1,
+        "tgl_dibuat": "string",
+        "tgl_diubah": "string",
+        "tipe": "WEB"
+      }
+    ],
+    "layanan_cara_mengakses": [
+      {
+        "deskripsi": "Buka website resmi",
+        "id": 1,
+        "judul": "Kunjungi Website",
+        "layanan_id": 1,
+        "tgl_dibuat": "string",
+        "tgl_diubah": "string",
+        "urutan": 1
+      }
+    ],
+    "layanan_faq": [
+      {
+        "id": 1,
+        "jawaban": "Proses memakan waktu 3-5 hari kerja",
+        "layanan_id": 1,
+        "pertanyaan": "Berapa lama proses pembuatan?",
+        "tgl_dibuat": "string",
+        "tgl_diubah": "string",
+        "urutan": 1
+      }
+    ],
+    "layanan_informasi_tambahan": {
+      "biaya_layanan": "Gratis",
+      "hasil_layanan": "KTP Elektronik",
+      "layanan_id": 1,
+      "tgl_dibuat": "string",
+      "tgl_diubah": "string",
+      "waktu_penyelesaian": "3-5 hari kerja"
+    },
+    "layanan_kanal_pengaduan": [
+      {
+        "deskripsi": "Kirim pengaduan ke email ini",
+        "id": 1,
+        "judul": "Email Pengaduan",
+        "layanan_id": 1,
+        "tgl_dibuat": "string",
+        "tgl_diubah": "string",
+        "tipe": "EMAIL"
+      }
+    ],
+    "layanan_panduan_visual": [
+      {
+        "deskripsi": "Langkah-langkah pendaftaran online",
+        "id": 1,
+        "layanan_id": 1,
+        "nama": "Panduan Pendaftaran",
+        "tgl_dibuat": "string",
+        "tgl_diubah": "string",
+        "urutan": 1
+      }
+    ],
+    "layanan_persyaratan": [
+      {
+        "deskripsi": "Fotokopi KTP yang masih berlaku",
+        "id": 1,
+        "judul": "KTP",
+        "layanan_id": 1,
+        "tgl_dibuat": "string",
+        "tgl_diubah": "string",
+        "urutan": 1
+      }
+    ],
+    "master_layanan": {
+      "cakupan": "Nasional",
+      "dibuat_oleh": 1,
+      "diubah_oleh": 1,
+      "id": 1,
+      "is_aktif": true,
+      "kategori_master_layanan": {
+        "dibuat_oleh": 1,
+        "diubah_oleh": 1,
+        "id": 1,
+        "ikon": "icon-building.png",
+        "nama": "Administrasi Kependudukan",
+        "tgl_dibuat": "2024-01-01T10:00:00+07:00",
+        "tgl_diubah": "2024-01-01T10:00:00+07:00"
+      },
+      "kategori_master_layanan_id": 1,
+      "nama": "KTP Elektronik",
+      "tgl_dibuat": "2026-06-05T10:19:18.553099+07:00",
+      "tgl_diubah": "2026-06-05T10:19:18.553099+07:00"
+    },
+    "master_layanan_id": 1,
+    "nama": "Pembuatan KTP Elektronik",
+    "status": "PUBLISHED",
+    "unik_id": "550e8400-e29b-41d4-a716-446655440000"
+  },
+  "message": "Berhasil",
+  "success": true
+}
