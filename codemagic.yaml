@@ -31,7 +31,7 @@ workflows:
       - name: Build iOS app for Simulator (no code signing needed)
         working_directory: portal_layanan_publik_mobile
         script: |
-          flutter build ios --release --simulator
+          flutter build ios --debug --simulator
 
     artifacts:
       - portal_layanan_publik_mobile/build/ios/iphonesimulator/*.app
